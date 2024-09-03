@@ -1,0 +1,15 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "Node.js file",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file= .env server2.js"
+  },
+  "author": "Saiyyed Kaif Aalam",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
