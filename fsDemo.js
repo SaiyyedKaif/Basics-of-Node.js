@@ -1,17 +1,24 @@
 import fs from 'fs/promises'
 
-//readFile() =callback
-//fs.readFile('./test.txt' , 'utf-8' ,(err , data) => {
-//    if(err) throw err ;
-//    console.log(data);
-// });
+/* PREVIOS METHOD 
 
-// readFilesync() = Synchronous version
+readFile() =callback
+fs.readFile('./test.txt' , 'utf-8' ,(err , data) => {
+   if(err) throw err ;
+   console.log(data);
+});
 
-//const data  = fs.readFileSync('./test.txt' , 'utf8');
-//console.log(data);
+readFilesync() = Synchronous version
 
-// readFile()  = async/await 
+const data  = fs.readFileSync('./test.txt' , 'utf8');
+console.log(data);
+
+readFile()  = async/await 
+
+*/
+
+
+
 const readFile = async()=>{
     try {
         const data  = await fs.readFile('./test.txt' , 'utf-8');
